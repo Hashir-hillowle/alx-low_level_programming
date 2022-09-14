@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 /**
+ * main - Entry point
  * print_fib_x50 - prints the first 50 Fibonacci numbers,
  * starting with 1 and 2, followed by a new line.
  *
