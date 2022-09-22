@@ -6,16 +6,19 @@
  * @s:string
  * Return:char
  */
-char *string_toupper(char *a)
+char *string_toupper(char *p)
 {
-	int i;
+	int a = 0;
 
-	for (i = 0; a[i] != 0; i++)
+	while (p[a])
 	{
-		if (a[i] > 90 && a[i] != 10)
+		if (p[a] >= 97 && p[a] <= 122)
 		{
-		a[i] = a[i] - 32;
+			p[a] -= 32;
 		}
+
+		a++;
 	}
-	return (a);
+
+	return (p);
 }
