@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * check - checks for the square root
- * @a:int
- * @b:int
+ * find_root - checks for the square root
+ * @n:int
+ * @root:int
  *
  * Return: int
  */
